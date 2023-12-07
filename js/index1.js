@@ -1,5 +1,4 @@
 document.getElementById('getqrInfo').addEventListener('click', () => {
-  alert('QRコードの取り扱いにはご注意ください。')
   // 入力された文字列を取得
   var userInput = document.getElementById('isbn').value;
   var query = userInput.split(' ').join('+');
